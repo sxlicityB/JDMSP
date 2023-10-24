@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(.4);
+  }
+
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+  
+    width: 100%;
+    height: 100vh;
+  
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+  
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+
+
+
+.jdmtitle{
+    
+    /*background-image: url('../img/jdmtitle.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.links{
+    position: absolute;
+    top: 4px;
+    font-size:30px ;
+    justify-content: space-between;
+    /*background-color: rgb(255, 255, 255, .3) ;*/
+    height:20px;
+    width: 100%;
+    display: flex;
+    background-color: ;
+    z-index: 2;
+}
+
+.link{
+    height:100%;
+    width: calc(33.33% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    
+
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.titleoftitles{
+    display:flex;
+    justify-content:center;
+    height:150px;
+    width: 100%;
+    
+    position: absolute;
+    top: 240px;
+    z-index:2 ;
+    transform: translateX(-440px);
+}
+
+.titleoftitles p {
+    display: inline-block;
+    font-size:180px ;
+    color:white;
+    letter-spacing: 30px;
+    transform: translateX(-200px);
+    line-height: 160px;
+    top:1px;
+
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(2, 1);
+}

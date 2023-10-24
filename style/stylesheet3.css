@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Russo One', sans-serif !important;
+    scroll-behavior:smooth;
+}
+
+#top{}
+
+.links{
+    position: relative;
+    font-size:30px ;
+    justify-content: space-between;
+    
+    height:20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.link{
+    padding-top: 8px;
+    
+    height:100%;
+    width: calc(33.33% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a{
+    text-decoration: none;
+    font-weight: 100;
+    color:black;
+}
+
+.header{
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+
+.boxy{
+    top: 40px;
+    min-width: 100vh;
+    min-height: 550px;
+    background-color: rgb(39, 35, 35);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.poster{
+    position: inherit;
+    border: solid black 5px;
+    min-width: 215px;
+    min-height: 300px;
+    margin:0 50px 0 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+a:visited {
+    filter: brightness(.9);
+}
+
+a:active{
+    transform: scale(1.1);
+}
+
+.posty{
+    display: flex;
+    flex-direction: column;
+}
+
+#pic1{
+background-image: url(../img/FAFTK.jpg);
+transition: 80ms ease-in-out;
+transform: scale(1);
+}
+#pic1:hover{
+    transform: scale(1.1) ;
+    transition: 300ms;
+}
+
+#cum{
+    color: white;
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+#pic2{
+    background-image: url(../img/granT.jpg);
+    transition: 80ms ease-in-out;
+    transform: scale(1);
+}
+#pic2:hover{
+    transform: scale(1.1) ;
+    transition: 300ms;
+}
+
+#pic3{
+    background-image: url(../img/initialD.jpg);
+    transition: 80ms ease-in-out;
+    transform: scale(1);
+}
+#pic3:hover{
+    transform: scale(1.1) ;
+    transition: 200ms;
+}
+
+#pic4{
+    background-image: url(../img/maximumT.jpg);
+    transition: 80ms ease-in-out;
+    transform: scale(1);
+}
+#pic4:hover{
+    transform: scale(1.1) ;
+    transition: 200ms;
+}
+
+#pic5{
+    background-image: url(../img/nfsU.jpg);
+    transition: 80ms ease-in-out;
+    transform: scale(1);
+}
+#pic5:hover{
+    transform: scale(1.1) ;
+    transition: 200ms;
+}
+
+
+
+.container{
+    margin-top: 50px !important;
+    margin: 0px auto;
+    
+    position: relative;
+    display: flex;
+    align-self: center;
+    top: 20px;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 100px;
+}
+#con1{
+    border-bottom: black 2px solid;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+#con2{
+    font-size: 22px;
+}
+
+#tab1{
+    margin-top: 100px !important;
+    margin-bottom: -20px !important;
+}
+
+
+.sucktion{  
+    width: 200vh;
+    height: 550px;
+    background-color: rgba(39, 35, 35, 0);
+    display: flex;
+    align-items: center;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+#par1{
+    border: solid 1px black;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-self: center;
+    margin: 0px 50px 0px 80px;
+    width: 320px;
+    height: auto;
+}
+
+#par2{
+    border: solid 1px black;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-self: center;
+    margin: 0px 50px 0px 80px;
+    width: 320px;
+    height: auto;
+}
+
+#par3{
+    border: solid 1px black;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-self: center;
+    margin: 0px 50px 0px 80px;
+    width: 320px;
+    height: auto;
+}
+
+#par4{
+    border: solid 1px black;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-self: center;
+    margin: 0px 50px 0px 80px;
+    width: 320px;
+    height: auto;
+}
+
+#par5{
+    border: solid 1px black;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-self: center;
+    margin: 0px 50px 0px 80px;
+    width: 320px !important;
+    height: auto !important;
+}
+
+#sus{
+    color: rgb(0, 0, 0) !important;
+    position: relative;
+    top:-15px;
+    font-size: 40px ;
+    display: flex;
+    
+}
+#tex{
+    top:40px !important;
+    position: relative;
+    line-height: 50px;
+    font-size: 26px ;
+    color: rgb(0, 0, 0);
+}
+
+.nahoru{
+    width: 65px;
+    height: 65px;
+    border: solid 2px rgb(27, 26, 26);
+    text-align: center;
+    padding: 0px;
+    border-radius: 200px;
+    position: sticky;
+    left: 15px;
+    bottom: 15px;
+    z-index: 2;
+}
+
+#gg{
+    margin: 0;
+    padding: 7px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 1000px;
+}
